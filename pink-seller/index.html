@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pinkier.</title>
+</head>
+<body>
+    <main>
+        <section id="entry" class="entry">
+            <video class="entry_background" autoplay muted loop>
+                <source src="vid/sakura.mp4">
+            </video>
+            <img class="entry_logo" src="img/logo.png" alt="Logo for Pinkier.">
+            <div class="entry_message">
+                <h1 class="entry_title">Yes, we love pink.</h1>
+                <p class="entry_text">We really do.</p>
+            </div>
+            <a href="#about"><img src="img/down.png" alt="Down buttom."></a>
+        </section>
+
+        <section id="about" class="about">
+            <a class="about_toentry" href="#entry"><img src="img/up.png" alt="Up buttom." class="about_toentry"></a>
+            <div class="about_message">
+                <h2 class="about_title">What is Pinkier&copy; about?</h2>
+                <p class="about_text_1">Well, you might be wondering what Pinkier is about, and that's fine.</p>
+                <p class="about_text_2">Pinkier is all about trying to convince everyone that pink is the best color. By simply introducing Pinkier in their lives, they slowly start loving pink too,  and soon after, they try to make their loved ones love pink too.</p>
+                <p class="about_text_3">In case of a federal investigation, no, we are not a cult.</p>
+            </div>
+            <a class="about_tojoin" href="#join"><img src="img/down.png" alt="Down buttom."></a>
+        </section>
+
+        <section class="join" id="join">
+            <a href="#about" class="join_toabout"><img src="img/up.png" alt="Up buttom."></a>
+            <div class="join_message">
+                <h2 class="join_title">Feel like joining us?</h2>
+                <p class="join_text">Fill the form below to join us.</p>
+            </div>
+            <div class="join_form">
+                <form>
+                    <label for="name">Your name:</label><br>
+                    <input type="text" name="name" id="name"><br>
+                    <label for="email">Your e-mail:</label><br>
+                    <input type="email" name="email" id="email"><br>
+                    <label for="ccard">Your credit card number:</label><br>
+                    <input type="text" name="ccard" id="ccard"><br>
+                    <label for="ssn">Your social security number:</label><br>
+                    <input type="text" name="ssn" id="ssn"><br>
+                    <button type="submit">Join Pinkier</button>
+                </form>
+            </div>
+        </section>
+        <div class="hr"></div>
+    </main>
+
+    <footer>
+        <p class="footer_copyright">&copy; 2023, Yazowa&trade;, </p>
+    </footer>
+</body>
+</html>

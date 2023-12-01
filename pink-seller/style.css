@@ -1,0 +1,166 @@
+html{scroll-behavior:smooth}
+* {
+    box-sizing: border-box;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+:root {
+    --background-color: #ffcfdf;
+    --box-color: #ffadc9;
+    --text-color: #white;
+}
+
+main {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), var(--background-color));
+    color: white;
+}
+
+.entry {
+    position: relative;
+}
+
+.entry_background {
+    object-fit: cover;
+    position: absolute;
+    height: 313%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: -10;
+}
+
+.entry_logo {
+    padding: 5rem;
+    margin-top: 15vh;
+}
+
+.entry_title {
+    font-size: 7.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5rem;
+    font-weight: 100;
+    margin-top: -5rem;
+}
+
+.entry_text {
+    margin-top: -25px;
+    font-weight: 100;
+    font-size: 2rem;
+    text-transform: lowercase;
+}
+
+.entry a img {
+    margin-top: 20vh;
+    width: 5vw;
+    cursor: pointer;
+}
+
+.about {
+    margin-top: 3rem;
+}
+
+.about_title {
+    font-size: 7.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5rem;
+    font-weight: 100;
+    margin-top: 5rem;
+}
+
+.about_text_1 {
+    font-weight: 100;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.about_text_2 {
+    font-weight: 100;
+    display: inline-block;
+    width: 80vh;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.about_text_3 {
+    font-weight: 100;
+    font-size: 1rem;
+    margin-top: 8rem;
+}
+
+.about_toentry img{
+    margin-top: 2vh;
+    width: 5vw;
+    cursor: pointer;
+}
+
+.about_tojoin img {
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+    width: 5vw;
+}
+
+.join {
+    margin-top: 3rem;
+}
+
+.join img {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    width: 5vw;
+    cursor: pointer;
+}
+
+.join_title  {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 5rem;
+}
+
+.join_text {
+    font-weight: 100;
+    font-size: 2rem;
+    margin-top: -1.5rem;
+}
+
+.join_form form{
+    background-color: var(--box-color);
+    padding: 2rem;
+    display: inline-block;
+    text-align: right;
+    width: 45vh;
+    border-radius: 5rem;
+    margin-top: 10vh;
+}
+
+.join_form input {
+    margin-right: 6vw;
+}
+
+.join_form label {
+    margin-right: 6vw;
+    color: #232323;
+}
+
+.join_form button {
+    margin-top: 1rem;
+    margin-right: 6.9vw;
+    background-color: var(--background-color);
+    color: #232323;
+    width: 5rem;
+    border-radius: 5rem;
+}
+
+.hr {
+    margin-top: 17.8vh;
+    border: 1px solid black;
+}
+
+footer {
+    background-color: var(--box-color);
+    padding: 0;
+    border: 0;
+}
